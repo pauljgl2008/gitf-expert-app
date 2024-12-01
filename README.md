@@ -4,3 +4,6 @@ yarn dev
 yarn build
 npm install --global http-server
 http-server -o // dentro de la carpeta dist del proyecto
+
+deploy in netlify.com:
+https://paul-gif-expert-app.netlify.app/
