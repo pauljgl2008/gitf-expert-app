@@ -15,7 +15,7 @@ export const AddCategory = ({onNewCategory}) => {
         onNewCategory(inputValue.trim())
     }
     return (
-        <form onSubmit={onSubmit}>
+        <form aria-label='form' onSubmit={onSubmit}>
             <input type="text"
                 placeholder='Buscar gifs'
                 value={inputValue}
