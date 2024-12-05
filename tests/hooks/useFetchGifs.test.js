@@ -11,7 +11,7 @@ describe('Pruebas en el hook useFetchGifs', () => {
         // const {images, isLoading} = useFetchGifs();
      })
      test('debe de retornar un arreglo de imágenes y isLoading en false', async () => { 
-        const {result}=renderHook(()=>useFetchGifs('One Punch'));
+        const {result}=renderHook(()=>useFetchGifs('Dota'));
 
         await waitFor(
             ()=>expect(result.current.images.length).toBeGreaterThan(0),
